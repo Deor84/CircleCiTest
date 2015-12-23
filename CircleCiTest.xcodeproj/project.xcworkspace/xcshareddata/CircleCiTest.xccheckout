@@ -14,11 +14,11 @@
 		<string>https://github.com/Deor84/CircleCiTest.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Test/CircleCiTest.xcodeproj</string>
+	<string>CircleCiTest.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C6D3FE02D28DE9ABFF1E108FDF940255B4C57648</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Deor84/CircleCiTest.git</string>
