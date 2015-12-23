@@ -18,18 +18,10 @@
 		7F96CC4B1B3C059B000BA24A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F96CC491B3C059B000BA24A /* LaunchScreen.xib */; };
 		7F96CC571B3C059C000BA24A /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F96CC561B3C059C000BA24A /* TestTests.m */; };
 		7FE469D11BEA736100114836 /* budoka.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE469D01BEA736100114836 /* budoka.png */; };
-		7FE469D91BEA751300114836 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE469D81BEA751300114836 /* TestUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		7F96CC511B3C059C000BA24A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7F96CC2F1B3C059B000BA24A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7F96CC361B3C059B000BA24A;
-			remoteInfo = Test;
-		};
-		7FE469DB1BEA751300114836 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7F96CC2F1B3C059B000BA24A /* Project object */;
 			proxyType = 1;
@@ -58,7 +50,6 @@
 		7F96CC551B3C059C000BA24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F96CC561B3C059C000BA24A /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
 		7FE469D01BEA736100114836 /* budoka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = budoka.png; sourceTree = "<group>"; };
-		7FE469D61BEA751300114836 /* CircleCiTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleCiTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE469D81BEA751300114836 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		7FE469DA1BEA751300114836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,13 +63,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F96CC4D1B3C059C000BA24A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7FE469D31BEA751300114836 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -112,7 +96,6 @@
 			children = (
 				7F96CC371B3C059B000BA24A /* CircleCiTest.app */,
 				7F96CC501B3C059C000BA24A /* CircleCiTest.xctest */,
-				7FE469D61BEA751300114836 /* CircleCiTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,24 +193,6 @@
 			productReference = 7F96CC501B3C059C000BA24A /* CircleCiTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7FE469D51BEA751300114836 /* CircleCiTestUICircleCiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7FE469DD1BEA751300114836 /* Build configuration list for PBXNativeTarget "CircleCiTestUICircleCiTests" */;
-			buildPhases = (
-				7FE469D21BEA751300114836 /* Sources */,
-				7FE469D31BEA751300114836 /* Frameworks */,
-				7FE469D41BEA751300114836 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7FE469DC1BEA751300114836 /* PBXTargetDependency */,
-			);
-			name = CircleCiTestUICircleCiTests;
-			productName = TestUITests;
-			productReference = 7FE469D61BEA751300114836 /* CircleCiTest.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -242,10 +207,6 @@
 					};
 					7F96CC4F1B3C059C000BA24A = {
 						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 7F96CC361B3C059B000BA24A;
-					};
-					7FE469D51BEA751300114836 = {
-						CreatedOnToolsVersion = 7.1;
 						TestTargetID = 7F96CC361B3C059B000BA24A;
 					};
 				};
@@ -265,7 +226,6 @@
 			targets = (
 				7F96CC361B3C059B000BA24A /* CircleCiTest */,
 				7F96CC4F1B3C059C000BA24A /* CircleCiTestCircleCiTests */,
-				7FE469D51BEA751300114836 /* CircleCiTestUICircleCiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,13 +244,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F96CC4E1B3C059C000BA24A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7FE469D41BEA751300114836 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,14 +273,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FE469D21BEA751300114836 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FE469D91BEA751300114836 /* TestUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -335,11 +280,6 @@
 			isa = PBXTargetDependency;
 			target = 7F96CC361B3C059B000BA24A /* CircleCiTest */;
 			targetProxy = 7F96CC511B3C059C000BA24A /* PBXContainerItemProxy */;
-		};
-		7FE469DC1BEA751300114836 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7F96CC361B3C059B000BA24A /* CircleCiTest */;
-			targetProxy = 7FE469DB1BEA751300114836 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -502,34 +442,6 @@
 			};
 			name = Release;
 		};
-		7FE469DE1BEA751300114836 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = TestUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GS.TestUITests;
-				PRODUCT_NAME = CircleCiTest;
-				TEST_TARGET_NAME = Test;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		7FE469DF1BEA751300114836 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TestUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GS.TestUITests;
-				PRODUCT_NAME = CircleCiTest;
-				TEST_TARGET_NAME = Test;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,15 +468,6 @@
 			buildConfigurations = (
 				7F96CC5E1B3C059C000BA24A /* Debug */,
 				7F96CC5F1B3C059C000BA24A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7FE469DD1BEA751300114836 /* Build configuration list for PBXNativeTarget "CircleCiTestUICircleCiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7FE469DE1BEA751300114836 /* Debug */,
-				7FE469DF1BEA751300114836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
