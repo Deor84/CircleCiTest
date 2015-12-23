@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Test.xcodeproj">
+      location = "self:/Users/michal.wierzbinski/Projects/CircleCiTest/Test/CircleCiTest.xcodeproj">
    </FileRef>
 </Workspace>

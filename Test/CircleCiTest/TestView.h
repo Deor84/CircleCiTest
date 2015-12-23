@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestView : PurchasesProxy
+@interface TestView : UIView
 
 @end

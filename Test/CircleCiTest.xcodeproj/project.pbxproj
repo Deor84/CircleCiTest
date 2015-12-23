@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F29E7DE1B4ADC9800239CC6 /* TestLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F29E7DD1B4ADC9800239CC6 /* TestLabel.m */; };
+		7F2E18131C2AEC8F00E864B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E18121C2AEC8F00E864B4 /* Default-568h@2x.png */; };
 		7F342EB81C240C4A0035D4DF /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F342EB71C240C4A0035D4DF /* TestView.m */; };
 		7F96CC3D1B3C059B000BA24A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F96CC3C1B3C059B000BA24A /* main.m */; };
 		7F96CC401B3C059B000BA24A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F96CC3F1B3C059B000BA24A /* AppDelegate.m */; };
@@ -40,9 +41,10 @@
 /* Begin PBXFileReference section */
 		7F29E7DC1B4ADC9800239CC6 /* TestLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLabel.h; sourceTree = "<group>"; };
 		7F29E7DD1B4ADC9800239CC6 /* TestLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLabel.m; sourceTree = "<group>"; };
+		7F2E18121C2AEC8F00E864B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7F342EB61C240C4A0035D4DF /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		7F342EB71C240C4A0035D4DF /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
-		7F96CC371B3C059B000BA24A /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F96CC371B3C059B000BA24A /* CircleCiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleCiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F96CC3B1B3C059B000BA24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F96CC3C1B3C059B000BA24A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F96CC3E1B3C059B000BA24A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,11 +54,11 @@
 		7F96CC451B3C059B000BA24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F96CC471B3C059B000BA24A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7F96CC4A1B3C059B000BA24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7F96CC501B3C059C000BA24A /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F96CC501B3C059C000BA24A /* CircleCiTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleCiTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F96CC551B3C059C000BA24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F96CC561B3C059C000BA24A /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
 		7FE469D01BEA736100114836 /* budoka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = budoka.png; sourceTree = "<group>"; };
-		7FE469D61BEA751300114836 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE469D61BEA751300114836 /* CircleCiTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleCiTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE469D81BEA751300114836 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		7FE469DA1BEA751300114836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +99,8 @@
 		7F96CC2E1B3C059B000BA24A = {
 			isa = PBXGroup;
 			children = (
-				7F96CC391B3C059B000BA24A /* Test */,
+				7F2E18121C2AEC8F00E864B4 /* Default-568h@2x.png */,
+				7F96CC391B3C059B000BA24A /* CircleCiTest */,
 				7F96CC531B3C059C000BA24A /* TestTests */,
 				7FE469D71BEA751300114836 /* TestUITests */,
 				7F96CC381B3C059B000BA24A /* Products */,
@@ -107,14 +110,14 @@
 		7F96CC381B3C059B000BA24A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F96CC371B3C059B000BA24A /* Test.app */,
-				7F96CC501B3C059C000BA24A /* TestTests.xctest */,
-				7FE469D61BEA751300114836 /* TestUITests.xctest */,
+				7F96CC371B3C059B000BA24A /* CircleCiTest.app */,
+				7F96CC501B3C059C000BA24A /* CircleCiTest.xctest */,
+				7FE469D61BEA751300114836 /* CircleCiTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F96CC391B3C059B000BA24A /* Test */ = {
+		7F96CC391B3C059B000BA24A /* CircleCiTest */ = {
 			isa = PBXGroup;
 			children = (
 				7F828D221B87330F00CFC04D /* Resources */,
@@ -131,7 +134,7 @@
 				7F342EB61C240C4A0035D4DF /* TestView.h */,
 				7F342EB71C240C4A0035D4DF /* TestView.m */,
 			);
-			path = Test;
+			path = CircleCiTest;
 			sourceTree = "<group>";
 		};
 		7F96CC3A1B3C059B000BA24A /* Supporting Files */ = {
@@ -172,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F96CC361B3C059B000BA24A /* Test */ = {
+		7F96CC361B3C059B000BA24A /* CircleCiTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F96CC5A1B3C059C000BA24A /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = 7F96CC5A1B3C059C000BA24A /* Build configuration list for PBXNativeTarget "CircleCiTest" */;
 			buildPhases = (
 				7F96CC331B3C059B000BA24A /* Sources */,
 				7F96CC341B3C059B000BA24A /* Frameworks */,
@@ -184,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = Test;
+			name = CircleCiTest;
 			productName = Test;
-			productReference = 7F96CC371B3C059B000BA24A /* Test.app */;
+			productReference = 7F96CC371B3C059B000BA24A /* CircleCiTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7F96CC4F1B3C059C000BA24A /* TestTests */ = {
+		7F96CC4F1B3C059C000BA24A /* CircleCiTestCircleCiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F96CC5D1B3C059C000BA24A /* Build configuration list for PBXNativeTarget "TestTests" */;
+			buildConfigurationList = 7F96CC5D1B3C059C000BA24A /* Build configuration list for PBXNativeTarget "CircleCiTestCircleCiTests" */;
 			buildPhases = (
 				7F96CC4C1B3C059C000BA24A /* Sources */,
 				7F96CC4D1B3C059C000BA24A /* Frameworks */,
@@ -202,14 +205,14 @@
 			dependencies = (
 				7F96CC521B3C059C000BA24A /* PBXTargetDependency */,
 			);
-			name = TestTests;
+			name = CircleCiTestCircleCiTests;
 			productName = TestTests;
-			productReference = 7F96CC501B3C059C000BA24A /* TestTests.xctest */;
+			productReference = 7F96CC501B3C059C000BA24A /* CircleCiTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7FE469D51BEA751300114836 /* TestUITests */ = {
+		7FE469D51BEA751300114836 /* CircleCiTestUICircleCiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FE469DD1BEA751300114836 /* Build configuration list for PBXNativeTarget "TestUITests" */;
+			buildConfigurationList = 7FE469DD1BEA751300114836 /* Build configuration list for PBXNativeTarget "CircleCiTestUICircleCiTests" */;
 			buildPhases = (
 				7FE469D21BEA751300114836 /* Sources */,
 				7FE469D31BEA751300114836 /* Frameworks */,
@@ -220,9 +223,9 @@
 			dependencies = (
 				7FE469DC1BEA751300114836 /* PBXTargetDependency */,
 			);
-			name = TestUITests;
+			name = CircleCiTestUICircleCiTests;
 			productName = TestUITests;
-			productReference = 7FE469D61BEA751300114836 /* TestUITests.xctest */;
+			productReference = 7FE469D61BEA751300114836 /* CircleCiTest.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -231,7 +234,7 @@
 		7F96CC2F1B3C059B000BA24A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Michal Wierzbinski";
 				TargetAttributes = {
 					7F96CC361B3C059B000BA24A = {
@@ -247,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F96CC321B3C059B000BA24A /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = 7F96CC321B3C059B000BA24A /* Build configuration list for PBXProject "CircleCiTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -260,9 +263,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F96CC361B3C059B000BA24A /* Test */,
-				7F96CC4F1B3C059C000BA24A /* TestTests */,
-				7FE469D51BEA751300114836 /* TestUITests */,
+				7F96CC361B3C059B000BA24A /* CircleCiTest */,
+				7F96CC4F1B3C059C000BA24A /* CircleCiTestCircleCiTests */,
+				7FE469D51BEA751300114836 /* CircleCiTestUICircleCiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,6 +278,7 @@
 				7F96CC461B3C059B000BA24A /* Main.storyboard in Resources */,
 				7F96CC4B1B3C059B000BA24A /* LaunchScreen.xib in Resources */,
 				7FE469D11BEA736100114836 /* budoka.png in Resources */,
+				7F2E18131C2AEC8F00E864B4 /* Default-568h@2x.png in Resources */,
 				7F96CC481B3C059B000BA24A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,12 +333,12 @@
 /* Begin PBXTargetDependency section */
 		7F96CC521B3C059C000BA24A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F96CC361B3C059B000BA24A /* Test */;
+			target = 7F96CC361B3C059B000BA24A /* CircleCiTest */;
 			targetProxy = 7F96CC511B3C059C000BA24A /* PBXContainerItemProxy */;
 		};
 		7FE469DC1BEA751300114836 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F96CC361B3C059B000BA24A /* Test */;
+			target = 7F96CC361B3C059B000BA24A /* CircleCiTest */;
 			targetProxy = 7FE469DB1BEA751300114836 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,6 +384,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -445,9 +450,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = CircleCiTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CircleCiTest;
 			};
 			name = Debug;
 		};
@@ -455,9 +460,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = CircleCiTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CircleCiTest;
 			};
 			name = Release;
 		};
@@ -475,8 +480,9 @@
 				);
 				INFOPLIST_FILE = TestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CircleCiTest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleCiTest.app/CircleCiTest";
 			};
 			name = Debug;
 		};
@@ -490,8 +496,9 @@
 				);
 				INFOPLIST_FILE = TestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CircleCiTest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleCiTest.app/CircleCiTest";
 			};
 			name = Release;
 		};
@@ -501,10 +508,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = TestUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GS.TestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CircleCiTest;
 				TEST_TARGET_NAME = Test;
 				USES_XCTRUNNER = YES;
 			};
@@ -514,10 +521,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = TestUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GS.TestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CircleCiTest;
 				TEST_TARGET_NAME = Test;
 				USES_XCTRUNNER = YES;
 			};
@@ -526,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F96CC321B3C059B000BA24A /* Build configuration list for PBXProject "Test" */ = {
+		7F96CC321B3C059B000BA24A /* Build configuration list for PBXProject "CircleCiTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F96CC581B3C059C000BA24A /* Debug */,
@@ -535,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F96CC5A1B3C059C000BA24A /* Build configuration list for PBXNativeTarget "Test" */ = {
+		7F96CC5A1B3C059C000BA24A /* Build configuration list for PBXNativeTarget "CircleCiTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F96CC5B1B3C059C000BA24A /* Debug */,
@@ -544,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F96CC5D1B3C059C000BA24A /* Build configuration list for PBXNativeTarget "TestTests" */ = {
+		7F96CC5D1B3C059C000BA24A /* Build configuration list for PBXNativeTarget "CircleCiTestCircleCiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F96CC5E1B3C059C000BA24A /* Debug */,
@@ -553,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FE469DD1BEA751300114836 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
+		7FE469DD1BEA751300114836 /* Build configuration list for PBXNativeTarget "CircleCiTestUICircleCiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FE469DE1BEA751300114836 /* Debug */,
