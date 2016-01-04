@@ -1,2 +1,7 @@
 general:
   build_dir: TestTests
+
+#Machine settings
+machine:
+  xcode:
+    version: "7.1"
